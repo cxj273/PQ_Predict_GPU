@@ -7,7 +7,7 @@
 #define Malloc(type,n) (type *)malloc((n)*sizeof(type))
 
 #define BLOCK_SIZE (512)
-#define FEATURE_CHUNK_SIZE (300000000)
+#define FEATURE_CHUNK_SIZE (100000000)
 
 __device__ double sigmoid_predict(double decision_value, double A, double B)
 {
